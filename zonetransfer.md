@@ -108,7 +108,7 @@ This is the most important part professionally.
 
  **In BIND:**
 
-`allow-transfer { none; }`;
+`allow-transfer { none; };`
 
 
 Or restrict to internal IPs only.
@@ -149,8 +149,6 @@ Since they’re all using the same MiFi, the Blue Team can:
 • Disable default credentials
 
 > 4. Logging & Incident Response
-
-Train them to watch:
 
 • Web server logs (Apache/Nginx access.log)
 • SSH logs (/var/log/auth.log)
